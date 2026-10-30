@@ -16,6 +16,8 @@ On a 24-task harness, a single agent got the verdict right on 17 of 24 (four fal
 | [cc-run-detached](https://github.com/Marcello00921/cc-run-detached) | runs long commands detached, state in a file, checked with short calls |
 | [cc-windows-guards](https://github.com/Marcello00921/cc-windows-guards) | `PreToolUse` guards against recursive deletes and kill-by-name |
 
+The same setup, written up for Brazilian developers: [Claude Code field guide (PT-BR)](https://guia-claude-code-8r2.pages.dev/).
+
 #### Dataset
 
 [Agent Verdict Bench (PT-BR)](https://huggingface.co/datasets/mASMK2/agent-verdict-bench-ptbr): 14 short engineering tasks where a coding agent tends to say "done" when it is not, each with a deterministic verifier and a known-wrong solution that must fail.
